@@ -9,6 +9,8 @@ npm i && npm run dev
 npm i && npm run build
 ## Запуск backend части
 ### Dev версия
+cd server
 npm i && npm run start:dev
 ### Build версия
+cd server
 npm i && npm run start
