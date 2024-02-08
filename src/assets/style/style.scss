@@ -1,0 +1,26 @@
+@use "font";
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+select {
+  border: 0;
+}
+
+select {
+  appearance: none;
+}
+
+button:focus,
+option:focus,
+select:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}

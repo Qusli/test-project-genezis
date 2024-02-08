@@ -1,0 +1,31 @@
+{
+  "name": "genezis",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@vue/test-utils": "^2.4.4",
+    "axios": "^1.6.7",
+    "axois": "^0.0.1-security",
+    "build": "^0.1.4",
+    "happy-dom": "^13.3.8",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.70.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^1.2.2",
+    "vue-tsc": "^1.8.5"
+  }
+}
